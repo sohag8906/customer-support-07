@@ -1,4 +1,4 @@
-
+import Bannar from './components/bannar';
 import './App.css'
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     
     <>
+    {/*navbar*/}
     <div className=' bg-white shadow-sm'>
     <div className=" max-w-[1200px] mx-auto navbar ">
   <div className="navbar-start ">
@@ -47,7 +48,9 @@ function App() {
  </div>
 </div>
 
-  
+
+
+  <Bannar></Bannar>
     </>
   );
 }
